@@ -31,8 +31,6 @@ suite('snapshotsample-test', function () {
     });
 
     test('Basic', function (done) {
-
-        this.timeout(1000000);
         async.series([
             // 1. Upload 3 blocks and commit them.
             Sample.CreateContainer,
